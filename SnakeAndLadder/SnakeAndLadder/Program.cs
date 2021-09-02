@@ -38,8 +38,8 @@ namespace SnakeAndLadder
             Console.WriteLine("Welcome To Snake and Ladder game.");
             // player initial position
             int player_position = 0, player_Next_Position = 0;
-            Console.WriteLine("Player current position is " + player_position);
-
+            Console.WriteLine("Player current position is " + player_position)
+              
             while (player_position < Finish)
             {
 
@@ -68,7 +68,6 @@ namespace SnakeAndLadder
                 {
                     player_position = player_Next_Position;
                 }
-
 
             }
             Console.WriteLine("Player current position After rolling the Dice is " + player_position);
