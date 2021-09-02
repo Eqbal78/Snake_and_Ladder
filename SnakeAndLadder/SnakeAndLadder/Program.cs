@@ -49,10 +49,14 @@ namespace SnakeAndLadder
             int player_Next_Position = player_position + player_Move;
 
             if (player_Next_Position < Start)
+            {    
                 player_position = Start;
+            }   
             else
+            {    
                 player_position = player_Next_Position;
-            Console.WriteLine("Player current position After rolling the Dice is " + player_position);
+                Console.WriteLine("Player current position After rolling the Dice is " + player_position);
+            }   
         }
     }
 }
